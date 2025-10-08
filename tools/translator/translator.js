@@ -12,4 +12,6 @@ import DA_SDK from 'https://da.live/nx/utils/sdk.js';
 
     document.body.append(h3, para);
   });
+  const p = document.createElement('p');
+  document.body.append(p,token);
 }());
